@@ -1,10 +1,14 @@
-# Ariel Ruth Marin — CV
+# Ariel Ruth Marin
 
-A single self-contained `index.html`. No build step, no dependencies, no
-external requests — it renders identically from GitHub Pages, from an email
-attachment, or from a local file.
+Interactive CV — **https://jmtibbetts.github.io/AMarin/**
 
-Live: https://jmtibbetts.github.io/A.Marin/
+| File | What it is |
+|---|---|
+| `index.html` | The interactive page |
+| `resume.html` | The printable résumé — open it and print to PDF |
+| `resume.docx` | Word version, for job boards and ATS that parse it more reliably than PDF |
+| `profile.json` | The structured data all three are rendered from |
 
-`profile.json` is the structured source. Regenerate the page from it with the
-Merit builder rather than hand-editing the HTML, so the two stay in step.
+Built with Resume Wizard. Every claim comes from Ariel's own CV and LinkedIn
+export; nothing was invented, and the analysis that produced these records what
+changed and why.
