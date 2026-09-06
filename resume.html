@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ariel Ruth Marin — Résumé</title>
+<meta name="description" content="Linguist | Trainer | Quality Assurance Specialist - AI/LLM">
+<style>
+  :root {
+    --ink: #16130f;
+    --muted: #6b625a;
+    --rule: #e2dcd3;
+    --accent: #8c5a3c;
+    --paper: #ffffff;
+    --measure: 7.1in;
+  }
+
+  /* Print is the primary medium. Everything below is the screen approximation
+     of the printed page, not the other way round. */
+  @page { size: 8.5in 11in; margin: 0.5in; }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #f3efe9;
+    color: var(--ink);
+    font: 400 10.5pt/1.5 "Charter", "Iowan Old Style", "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+  }
+
+  .sheet {
+    max-width: var(--measure);
+    margin: 24px auto;
+    padding: 0.55in 0.6in 0.5in;
+    background: var(--paper);
+    box-shadow: 0 1px 2px rgb(0 0 0 / .06), 0 12px 32px rgb(0 0 0 / .08);
+  }
+
+  /* ---- masthead ---- */
+  header.top { border-bottom: 1.5px solid var(--accent); padding-bottom: 12px; }
+  h1 {
+    margin: 0;
+    font-size: 25pt;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+  }
+  .headline {
+    margin: 5px 0 0;
+    font-size: 11.5pt;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: .005em;
+  }
+  .contacts {
+    margin-top: 9px;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.6pt;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .contacts a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .sep { padding: 0 .45em; color: var(--rule); }
+
+  /* ---- summary ---- */
+  .summary {
+    margin: 14px 0 0;
+    font-size: 10.8pt;
+    line-height: 1.55;
+  }
+
+  /* ---- metrics band ----
+     Numbers first, because scale is the one thing a reader cannot infer from
+     a bullet list. Only ever rendered from author-supplied figures. */
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1.2in, 1fr));
+    gap: 10px 18px;
+    margin: 14px 0 0;
+    padding: 11px 0 2px;
+    border-top: 1px solid var(--rule);
+  }
+  .metric-value {
+    font-size: 15pt;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .metric-label {
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 7.6pt;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  /* ---- sections ---- */
+  .block { margin-top: 22px; }
+  .block h2 {
+    margin: 0 0 10px;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.2pt;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: var(--accent);
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* Employer once, titles under it.
+     The title is the heaviest thing on the page after the name, because that is
+     what a recruiter fixates on first. The employer sits above it, smaller --
+     the reverse of most templates, and the right way round for a 7-second scan. */
+  /* Deliberately breakable. An employer with six roles under it is taller than
+     a page; forbidding a break there pushed the whole Experience section onto
+     page 2 and left page 1 three-quarters empty -- which fails the one rule the
+     eye-tracking work is clear about. Roles and bullets stay whole; the
+     employer block may split. */
+  .employer { margin-bottom: 13px; }
+  .employer:last-of-type { margin-bottom: 0; }
+  .employer-head {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 14px;
+    border-bottom: 0.75px solid var(--rule); padding-bottom: 3px;
+  }
+  .employer-name {
+    margin: 0; font-size: 10.2pt; font-weight: 600; letter-spacing: .02em;
+    color: var(--muted); text-transform: uppercase;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+  }
+  .employer-loc {
+    margin: 3px 0 0;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8pt; color: var(--muted);
+  }
+  .when {
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.4pt; color: var(--muted); white-space: nowrap;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+
+  .role { margin-top: 8px; break-inside: avoid; page-break-inside: avoid; }
+  .role-head { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; }
+  .role h3 { margin: 0; font-size: 12pt; font-weight: 650; line-height: 1.25; letter-spacing: -0.005em; }
+  .role.brief h3 { font-size: 10.8pt; font-weight: 600; }
+  .role-org { margin: 1px 0 0; font-size: 9.6pt; color: var(--muted); }
+  .entry-summary { margin: 4px 0 0; font-size: 10pt; color: #38312b; }
+
+  ul.bullets { margin: 5px 0 0; padding-left: 1.05em; }
+  ul.bullets li { margin: 0 0 4px; padding-left: 2px; }
+  ul.bullets li::marker { color: var(--accent); }
+  .role.brief ul.bullets li { margin-bottom: 2px; }
+
+  .earlier { margin-top: 14px; }
+  .earlier h3 {
+    margin: 0 0 5px;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.2pt; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Education and certifications keep the two-column entry shape. */
+  .entry { display: grid; grid-template-columns: 1.15in 1fr; gap: 0 16px; margin-bottom: 12px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-when {
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.2pt; color: var(--muted); padding-top: 2.5px;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .entry-title { margin: 0; font-size: 11pt; font-weight: 650; line-height: 1.25; }
+  .entry-org { margin: 1px 0 0; font-size: 9.6pt; color: var(--muted); }
+  .entry-link {
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.4pt; font-weight: 400; color: var(--accent); text-decoration: none;
+  }
+
+  ul.plain { margin: 0; padding: 0; list-style: none; font-size: 9.8pt; }
+  ul.plain li { margin-bottom: 3px; }
+
+  .skill-group + .skill-group { margin-top: 8px; }
+  .skill-group h4 {
+    margin: 0 0 4px;
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8pt; font-weight: 600; letter-spacing: .05em; color: var(--muted);
+    text-transform: uppercase;
+  }
+  ul.chips { display: flex; flex-wrap: wrap; gap: 5px 7px; margin: 0; padding: 0; list-style: none; }
+  ul.chips li {
+    font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, system-ui, sans-serif;
+    font-size: 8.8pt;
+    padding: 2.5px 8px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    line-height: 1.35;
+  }
+  .lvl {
+    margin-left: 5px; font-size: 7.2pt; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--accent); font-weight: 600;
+  }
+
+  /* SCREEN only. Chromium prints US Letter at 0.5in margins as exactly 720px,
+     so an unqualified max-width:720px query matches the printed page and
+     collapses the dates rail below each job -- which is how a clean-looking
+     screenshot turns into a broken PDF. */
+  @media screen and (max-width: 720px) {
+    .sheet { margin: 0; padding: 22px 18px 28px; box-shadow: none; }
+    .entry { grid-template-columns: 1fr; gap: 2px; }
+    .entry-when { order: 2; padding-top: 0; }
+    .entry-body { order: 1; }
+    .employer-head, .role-head { flex-direction: column; gap: 1px; }
+  }
+
+  @media print {
+    body { background: #fff; }
+    .sheet { margin: 0; padding: 0; max-width: none; box-shadow: none; }
+    /* A role heading stranded at the foot of a page, or a bullet split across
+       the break, is the most common way a good résumé reads as sloppy. */
+    .entry, .role { break-inside: avoid; page-break-inside: avoid; }
+    .employer-head { break-after: avoid; page-break-after: avoid; }
+    .block h2 { break-after: avoid; page-break-after: avoid; }
+    ul.bullets li { break-inside: avoid; page-break-inside: avoid; }
+    a { color: inherit; text-decoration: none; border: 0; }
+    .metrics { border-top-color: #ccc; }
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+  <header class="top">
+    <h1>Ariel Ruth Marin</h1>
+    <p class="headline">Linguist | Trainer | Quality Assurance Specialist - AI/LLM</p>
+    <div class="contacts"><span>United States</span><span class="sep" aria-hidden="true">·</span><a href="tel:9193892979">919 389 2979</a><span class="sep" aria-hidden="true">·</span><a href="mailto:ariel.r.marin@gmail.com">ariel.r.marin@gmail.com</a><span class="sep" aria-hidden="true">·</span><a href="https://linkedin.com/in/speakingoflinguistics">linkedin.com/in/speakingoflinguistics</a></div>
+  </header>
+
+  <p class="summary">Linguist with global teaching experience and hands-on experience in the AI/LLM space from project initiation to production monitoring across a variety of multimodal project types, including workflows featuring links, imagery, and video content.
+Positive, problem-solving team leader and trainer who excels at identifying and resolving misunderstandings by fostering global team collaboration to achieve high-quality results.
+Quality Specialist who excels at analyzing project-wide data and maintaining living documentation to drive consistency across multilingual workflows.</p>
+  
+  <section class="block">
+    <h2>Experience</h2>
+    
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Innodata Services</h3>
+          <span class="when">Jul 2023 → present</span>
+        </div>
+        
+        
+        <article class="role full">
+          <div class="role-head">
+            <h3>Training Quality Manager - Multilingual Human Data Annotation</h3>
+            <span class="when">Nov 2024 → present</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Receives and interprets client project-initiation documentation to create training and certification for crowd-sourced human annotators.</li>
+            <li>Interprets shifting client guidelines and updates living documentation and training materials to ensure consistency in output across all target languages and markets.</li>
+            <li>Conducts initial trainings, shadow sessions, audits, and audits of audits to identify trends and remove blockers for entire team.</li>
+            <li>Interprets daily, weekly, and monthly reports around quality and other metrics to ensure consistent team performance. Uses client taxonomy to report ongoing issues with recommendations for improvement.</li>
+          </ul>
+        </article>
+
+        <article class="role full">
+          <div class="role-head">
+            <h3>Training and Quality Lead</h3>
+            <span class="when">Jun 2024 → present</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Supports client-driven short and long-term data annotation needs from project initiation to completion; Interprets nuanced guidance and communicates it to global, dispersed teams; Manages quality process to ensure output meets client needs, even in subjective spaces.</li>
+          </ul>
+        </article>
+
+        <article class="role full">
+          <div class="role-head">
+            <h3>AI/LLM Trainer - Multilingual Workflows</h3>
+            <span class="when">May 2024 → present</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Drove initial multilingual scaling from base EN, prioritizing alignment across languages to maintain and improve overall output quality; Interpreted client guidelines and shared localized insights with dispersed linguistic team to drive multilingual consistency across languages and cultures; Leveraged existing education expertise to facilitate initial training alignment and continuous improvement.</li>
+          </ul>
+        </article>
+
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Training and Quality Manager – Expansion from EN into Multilingual Workflows</h3>
+            <span class="when">Dec 2023 → Nov 2024</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Stood up 5 multilingual workflows from existing EN client documentation. Established processes to monitor performance and resolve misunderstandings from initial training to production data via living documentation, shadowing, and audits.</li>
+          </ul>
+        </article>
+
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Quality Assurance Specialist</h3>
+            <span class="when">Nov 2023 → present</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Interprets project guidelines and updates; Analyzes produced data and identifies trends to recommend improvements; Facilitates project cycle including training development and audits; Collaborates with global team to uphold client-specified standards.</li>
+          </ul>
+        </article>
+
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Language Specialist &amp; Quality SME – LLM Workflows</h3>
+            <span class="when">Jul 2023 → Dec 2023</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Created training data sets for AI models to improve quality; Collaborated with a distributed team to refine and iterate LLM specifications; Conducted research and made recommendations to client.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Invisible Technologies Inc.</h3>
+          <span class="when">Jul 2023 → Dec 2023</span>
+        </div>
+        
+        
+        <article class="role full">
+          <div class="role-head">
+            <h3>Advanced AI Data Trainer</h3>
+            <span class="when">Jul 2023 → Dec 2023</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Evaluated and trained AI model output to optimize quality; leveraged specialized linguistic knowledge to interpret guidelines for wider team.</li>
+            <li>Conducted daily research to verify and enrich output; Documented and communicated data-driven insights across distributed team.</li>
+            <li>Evaluated and trained AI model output to improve performance; Facilitated metacognitive awareness; Conducted research and learned something new every day.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Appen Limited</h3>
+          <span class="when">2028 → 2023</span>
+        </div>
+        
+        
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Appen Limited</h3>
+            <span class="when">2028 → 2023</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Supported NLP/NLG projects by annotating multimodal content types with an adaptable semantic labeling system, focusing on user/bot interactions, and collaborating with a distributed team to ensure high internal consistency rates.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Life Labs Learning</h3>
+          <span class="when">Jun 2022 → Aug 2022</span>
+        </div>
+        <p class="employer-loc">San Francisco [part of mass layoff]</p>
+        
+        <article class="role full">
+          <div class="role-head">
+            <h3>Leadership Trainer</h3>
+            <span class="when">Jun 2022 → Aug 2022</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Facilitated research-based sessions to enhance leadership skills and improve communication practices for managers, executives, and contributors at all levels</li>
+            <li>Implemented proven workplace best practices to foster effective communication and optimize team productivity</li>
+            <li>Equipped participants with essential tools and knowledge to navigate workplace challenges successfully, driving organizational success</li>
+            <li>[laid off due to market factors] Trained managers, executives, and contributors of all levels on researched-based workplace best practices with particular focus on communication skills; Worked collaboratively with distributed team to achieve shared goals.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Athena Health</h3>
+          <span class="when">Jul 2021 → Mar 2022</span>
+        </div>
+        <p class="employer-loc">80-100% travel</p>
+        
+        <article class="role full">
+          <div class="role-head">
+            <h3>Foundational Training Association</h3>
+            <span class="when">Jul 2021 → Mar 2022</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Provided training to healthcare professionals through online and on-site platforms</li>
+            <li>Exercised influence over critical stakeholders during periods of organizational change, managing their buy-in and engagement</li>
+            <li>Managed complex travel arrangements and client-specific logistics</li>
+            <li>Led a project to rewrite training materials, implementing structured, performance-driven content.</li>
+            <li>[80-100% travel throughout US] Trained healthcare professionals online and on site; Influenced key stakeholders during periods of change; Managed project and travel logistics; creation of scaffolded training content.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Appen</h3>
+          <span class="when">Jan 2020 → Jan 2022</span>
+        </div>
+        <p class="employer-loc">Virtual</p>
+        
+        <article class="role full">
+          <div class="role-head">
+            <h3>Linguist</h3>
+            <span class="when">Jan 2020 → Jan 2022</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Annotated utterances using an ever-adapting semantic labelling system for Natural Language Generation and Natural Language Production teams on a variety of project types.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Lingoda GmbH</h3>
+          <span class="when">Oct 2019 → Jan 2021</span>
+        </div>
+        <p class="employer-loc">Virtual</p>
+        
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Content Author and Teacher</h3>
+            <span class="when">Oct 2019 → Jan 2021</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Created interactive content to foster asynchronous learning; Created and implemented engaging virtual classroom activities; Analyzed teacher and student feedback data and modified content to improve existing materials.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">ICON PLC</h3>
+          <span class="when">Nov 2017 → Jan 2022</span>
+        </div>
+        <p class="employer-loc">Virtual</p>
+        
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Specialty Linguist</h3>
+            <span class="when">Nov 2018 → Jan 2022</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Managed project document delivery, performed linguistic quality control checks, conducted Back Translation Reviews, and transcribed patient interviews as a Specialty Linguist.</li>
+            <li>Followed data protection laws such as GPDR and HIPPA while managing and delivering high-visibility medical documentation.</li>
+          </ul>
+        </article>
+
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Project Manager</h3>
+            <span class="when">Nov 2017 → Nov 2018</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Managed complex translation projects within tight time and budget constraints, ensuring timely delivery and cost-effectiveness while maintaining quality goals as defined with the medical context.</li>
+            <li>Conducted meticulous evaluations of technical documents and CAT tools, optimizing efficiency and accuracy</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="employer">
+        <div class="employer-head">
+          <h3 class="employer-name">Kuwait American School</h3>
+          <span class="when">Sep 2016 → Jun 2017</span>
+        </div>
+        <p class="employer-loc">Al Salmiyah, Ḩawallī, Kuwait</p>
+        
+        <article class="role brief">
+          <div class="role-head">
+            <h3>Fourth Grade Teacher</h3>
+            <span class="when">Sep 2016 → Jun 2017</span>
+          </div>
+          
+          <ul class="bullets">
+            <li>Developed and implemented blended learning curricula and testing materials for core subjects (Math, Social Studies, Language Arts, Science) for a fourth-grade class in an International School.</li>
+            <li>Created and executed classroom curricula and testing materials for core subjects; Nurtured a positive learning environment for all learning types; Taught extra-curricular speech and debate.</li>
+          </ul>
+        </article>
+      </section>
+    
+      <section class="earlier">
+        <h3>Earlier</h3>
+        <ul class="plain">
+          <li><strong>Futian Associate Coordinator</strong><span class="sep" aria-hidden="true">·</span>The Center for Teaching and Learning in China<span class="sep" aria-hidden="true">·</span><span class="when">Aug 2013 → Jun 2016</span></li>
+          <li><strong>English Teacher</strong><span class="sep" aria-hidden="true">·</span>Sigmund Freud Elementary School - Quito, Ecuador<span class="sep" aria-hidden="true">·</span><span class="when">Jun 2012 → Jul 2012</span></li>
+          <li><strong>English Teacher / Language Assistant</strong><span class="sep" aria-hidden="true">·</span>The English Language Institute, the University of Florida - Gainesville, FL<span class="sep" aria-hidden="true">·</span><span class="when">May 2011 → May 2013</span></li>
+          <li><strong>Language Assistant</strong><span class="sep" aria-hidden="true">·</span>University of Florida<span class="sep" aria-hidden="true">·</span><span class="when">May 2011 → Apr 2013</span></li>
+        </ul>
+      </section>
+  </section>
+  
+  <section class="block">
+    <h2>Skills</h2>
+    <div class="skill-group"><ul class="chips"><li>Effective Communication</li><li>Training Expertise</li><li>Leadership in Uncertainty</li><li>Basic Python</li><li>Statistical Analysis</li><li>Microsoft Excel</li><li>Natural Language Processing (NLP)</li><li>Data Analysis</li><li>Python (Programming Language)</li><li>Machine Learning</li><li>TESOL</li><li>Writing</li><li>Tutoring</li><li>Translation</li><li>Spanish</li><li>Editing</li><li>Public Speaking</li><li>Teaching</li><li>English</li><li>Training</li><li>ESL</li><li>English as a Second Language (ESL)</li><li>Research</li></ul></div>
+  </section>
+  <section class="block">
+    <h2>Education</h2>
+    
+      <article class="entry">
+        <div class="entry-when">2017 → 2020</div>
+        <div class="entry-body">
+          <h3 class="entry-title">M.A. in Applied Linguistics</h3>
+          <p class="entry-org">University of Birmingham, UK</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-when">2023</div>
+        <div class="entry-body">
+          <h3 class="entry-title">Applied Data Science, cert</h3>
+          <p class="entry-org">MIT Professional Education Program</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-when">2009 → 2013</div>
+        <div class="entry-body">
+          <h3 class="entry-title">B.A. in Linguistics</h3>
+          <p class="entry-org">University of Florida</p>
+        </div>
+      </article>
+  </section>
+  <section class="block">
+    <h2>Certifications</h2>
+    <ul class="plain">
+      <li><strong>Intro to HTML and CSS+</strong><span class="sep" aria-hidden="true">·</span><span class="sep" aria-hidden="true">·</span>2022</li>
+      <li><strong>TEFL, Teaching English as a Foreign Language in China</strong><span class="sep" aria-hidden="true">·</span>Peking University, Beijing<span class="sep" aria-hidden="true">·</span>2013</li>
+      <li><strong>TESL, Teaching English as a Second Language</strong><span class="sep" aria-hidden="true">·</span>University of Florida, Gainesville<span class="sep" aria-hidden="true">·</span>2013</li>
+      <li><strong>Teaching English as a Second Language</strong><span class="sep" aria-hidden="true">·</span>University of Florida<span class="sep" aria-hidden="true">·</span>2013</li>
+      <li><strong>Teaching English as a Foreign Language in China</strong><span class="sep" aria-hidden="true">·</span>Peking University<span class="sep" aria-hidden="true">·</span>2014</li>
+      <li><strong>LifeLabs Learning Founding Community Member</strong><span class="sep" aria-hidden="true">·</span>LifeLabs Learning<span class="sep" aria-hidden="true">·</span>2022</li>
+      <li><strong>Applied Data Science Program</strong><span class="sep" aria-hidden="true">·</span>MIT Professional Education<span class="sep" aria-hidden="true">·</span>2023</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
