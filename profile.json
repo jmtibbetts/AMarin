@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "slug": "ariel-marin",
+    "locale": "en",
+    "updatedAt": "2026-09-06T00:24:43.839Z",
+    "visibility": "public",
+    "templateId": "atelier"
+  },
+  "identity": {
+    "name": "Ariel Ruth Marin",
+    "headline": "Multilingual AI training & quality lead · applied linguist",
+    "location": "Nevada, US",
+    "availability": "casually_looking",
+    "summary": "Applied linguist who builds the quality systems behind multilingual AI training data. At Innodata I stood up five multilingual annotation workflows from client documentation and extended the programme into six further languages, writing the training, certification and audit layers that hold output consistent across markets. Before that, six years of linguistic quality control in regulated medical translation and NLP/NLG annotation, and four years teaching and designing curricula across three countries."
+  },
+  "contact": [
+    {
+      "kind": "email",
+      "label": "email",
+      "value": "ariel.r.marin@gmail.com",
+      "public": true
+    },
+    {
+      "kind": "phone",
+      "label": "phone",
+      "value": "919 389 2979",
+      "public": false
+    },
+    {
+      "kind": "url",
+      "label": "linkedin",
+      "value": "https://linkedin.com/in/speakingoflinguistics",
+      "public": true
+    }
+  ],
+  "experience": [
+    {
+      "id": "innodata-tqm",
+      "org": "Innodata",
+      "title": "Training Quality Manager — Multilingual Human Data Annotation",
+      "start": "2024-11",
+      "end": null,
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Build training and certification programmes for crowd-sourced annotators directly from client project-initiation documentation."
+        },
+        {
+          "text": "Maintain living documentation and training materials as client guidelines shift, holding output consistent across every target language and market."
+        },
+        {
+          "text": "Run initial training, shadow sessions, audits and audits-of-audits to surface quality trends and clear blockers for the whole team."
+        },
+        {
+          "text": "Report quality and performance daily, weekly and monthly against the client's own taxonomy, with recommendations that close recurring issues rather than restate them."
+        }
+      ],
+      "skillIds": [
+        "annotation-quality",
+        "training-design",
+        "multilingual",
+        "reporting"
+      ]
+    },
+    {
+      "id": "innodata-expansion",
+      "org": "Innodata",
+      "title": "Training & Quality Manager — English to Multilingual Expansion",
+      "start": "2023-12",
+      "end": "2024-11",
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Stood up five multilingual workflows from existing English client documentation, establishing the monitoring, shadowing and audit processes that carried each from first training to production data."
+        },
+        {
+          "text": "Extended the programme into six additional languages, replicating the process and adapting it to each market's specific requirements."
+        },
+        {
+          "text": "Coached underperforming annotators back to standard using applied linguistics and instructional design rather than escalation."
+        },
+        {
+          "text": "Drove measurable improvement against client-defined goals across languages and distributed teams through repeated shifts in priority."
+        }
+      ],
+      "skillIds": [
+        "multilingual",
+        "training-design",
+        "annotation-quality"
+      ]
+    },
+    {
+      "id": "innodata-sme",
+      "org": "Innodata",
+      "title": "Language Specialist & Quality SME — LLM Workflows",
+      "start": "2023-07",
+      "end": "2023-12",
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Shaped initial project design around client goals and kept living documentation current as those goals moved."
+        },
+        {
+          "text": "Audited output daily to identify trends, and translated client feedback into concrete guidance the team could act on."
+        }
+      ],
+      "skillIds": [
+        "annotation-quality",
+        "llm-eval"
+      ]
+    },
+    {
+      "id": "invisible",
+      "org": "Invisible Technologies",
+      "title": "Advanced AI Data Trainer",
+      "start": "2023-07",
+      "end": "2023-12",
+      "employmentType": "contract",
+      "highlights": [
+        {
+          "text": "Evaluated and corrected model output to raise response quality, and interpreted ambiguous guidelines for the wider trainer pool."
+        },
+        {
+          "text": "Researched and verified factual claims in model output, then circulated the findings across a distributed team."
+        }
+      ],
+      "skillIds": [
+        "llm-eval"
+      ]
+    },
+    {
+      "id": "icon-specialty",
+      "org": "ICON plc",
+      "title": "Specialty Linguist",
+      "start": "2018",
+      "end": "2023",
+      "employmentType": "contract",
+      "highlights": [
+        {
+          "text": "Ran linguistic quality control and back-translation review on high-visibility medical documentation, and transcribed patient interviews."
+        },
+        {
+          "text": "Delivered under GDPR and HIPAA data-protection requirements throughout."
+        }
+      ],
+      "skillIds": [
+        "linguistic-qa",
+        "compliance"
+      ]
+    },
+    {
+      "id": "appen",
+      "org": "Appen",
+      "title": "NLP/NLG Annotator",
+      "start": "2018",
+      "end": "2023",
+      "employmentType": "contract",
+      "highlights": [
+        {
+          "text": "Annotated multimodal content for NLP/NLG projects using an adaptable semantic labelling system, focused on user and bot interactions."
+        },
+        {
+          "text": "Held high internal consistency rates across a distributed annotation team."
+        }
+      ],
+      "skillIds": [
+        "annotation-quality",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "lifelabs",
+      "org": "LifeLabs Learning",
+      "title": "Leadership Trainer",
+      "start": "2022-06",
+      "end": "2022-08",
+      "location": "San Francisco",
+      "employmentType": "contract",
+      "highlights": [
+        {
+          "text": "Facilitated research-based sessions on leadership and communication for managers, executives and individual contributors."
+        },
+        {
+          "text": "Equipped participants with practical tools for navigating organisational friction."
+        }
+      ],
+      "skillIds": [
+        "training-design",
+        "leadership"
+      ]
+    },
+    {
+      "id": "athena",
+      "org": "Athena Health",
+      "title": "Foundational Training Associate",
+      "start": "2021-07",
+      "end": "2022-03",
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Trained healthcare professionals online and on-site across a heavy travel schedule."
+        },
+        {
+          "text": "Rewrote the training materials into structured, performance-driven content, shortening time to competence."
+        },
+        {
+          "text": "Managed stakeholder buy-in through periods of organisational change."
+        }
+      ],
+      "skillIds": [
+        "training-design",
+        "leadership"
+      ]
+    },
+    {
+      "id": "icon-pm",
+      "org": "ICON plc",
+      "title": "Project Manager",
+      "start": "2017-11",
+      "end": "2018-11",
+      "location": "Durham, NC",
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Delivered complex medical translation projects against tight time and budget constraints without relaxing quality thresholds."
+        },
+        {
+          "text": "Evaluated technical documents and CAT tooling to improve throughput and accuracy."
+        },
+        {
+          "text": "Trained new hires on working effectively with international vendors."
+        }
+      ],
+      "skillIds": [
+        "linguistic-qa",
+        "leadership"
+      ]
+    },
+    {
+      "id": "teaching",
+      "org": "Kuwait American School · The Center for Teaching and Learning in China · University of Florida ELI",
+      "title": "Language Teaching & Curriculum Design",
+      "start": "2011-05",
+      "end": "2017-06",
+      "employmentType": "full_time",
+      "highlights": [
+        {
+          "text": "Designed and taught blended curricula and assessment materials across three countries, including Gaokao English preparation in Shenzhen."
+        },
+        {
+          "text": "Led instructional design workshops on communication in large classrooms, and supported multinational cohorts of teachers through TEFL training."
+        }
+      ],
+      "skillIds": [
+        "training-design",
+        "multilingual"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "birmingham",
+      "institution": "University of Birmingham, UK",
+      "credential": "M.A. Applied Linguistics",
+      "end": "2020"
+    },
+    {
+      "id": "florida",
+      "institution": "University of Florida",
+      "credential": "B.A. Linguistics",
+      "end": "2013"
+    }
+  ],
+  "credentials": [
+    {
+      "id": "mit-ads",
+      "name": "Applied Data Science Program",
+      "issuer": "MIT Professional Education",
+      "issued": "2023"
+    },
+    {
+      "id": "html-css",
+      "name": "Intro to HTML and CSS+",
+      "issuer": "Certification",
+      "issued": "2022"
+    },
+    {
+      "id": "tefl",
+      "name": "TEFL — Teaching English as a Foreign Language",
+      "issuer": "Peking University, Beijing",
+      "issued": "2013"
+    },
+    {
+      "id": "tesl",
+      "name": "TESL — Teaching English as a Second Language",
+      "issuer": "University of Florida",
+      "issued": "2013"
+    }
+  ],
+  "projects": [],
+  "writing": [],
+  "testimonials": [],
+  "evidence": [],
+  "skills": [
+    {
+      "id": "llm-eval",
+      "name": "LLM output evaluation",
+      "category": "AI & Data",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "annotation-quality",
+      "name": "Annotation quality systems",
+      "category": "AI & Data",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "taxonomy",
+      "name": "Annotation taxonomy design",
+      "category": "AI & Data",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "human-data",
+      "name": "Human data pipelines",
+      "category": "AI & Data",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "multimodal",
+      "name": "Multimodal annotation (text, image, video)",
+      "category": "AI & Data",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "guidelines",
+      "name": "Guideline & prompt authoring",
+      "category": "AI & Data",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "audit",
+      "name": "Audit design & audits-of-audits",
+      "category": "Quality",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "certification",
+      "name": "Certification programme design",
+      "category": "Quality",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "reporting",
+      "name": "Quality metrics & reporting",
+      "category": "Quality",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "living-docs",
+      "name": "Living documentation",
+      "category": "Quality",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "rca",
+      "name": "Root-cause analysis",
+      "category": "Quality",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "multilingual",
+      "name": "Multilingual workflow design",
+      "category": "Language",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "linguistic-qa",
+      "name": "Linguistic QA & back-translation review",
+      "category": "Language",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "applied-ling",
+      "name": "Applied linguistics",
+      "category": "Language",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "localization",
+      "name": "Localisation & CAT tools",
+      "category": "Language",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Technical",
+      "levelClaimed": "working",
+      "evidenceIds": []
+    },
+    {
+      "id": "stats",
+      "name": "Statistical analysis",
+      "category": "Technical",
+      "levelClaimed": "working",
+      "evidenceIds": []
+    },
+    {
+      "id": "excel",
+      "name": "Excel",
+      "category": "Technical",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "htmlcss",
+      "name": "HTML & CSS",
+      "category": "Technical",
+      "levelClaimed": "exposure",
+      "evidenceIds": []
+    },
+    {
+      "id": "compliance",
+      "name": "GDPR & HIPAA",
+      "category": "Compliance",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "leadership",
+      "name": "Distributed team leadership",
+      "category": "Leadership",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "training-design",
+      "name": "Training & instructional design",
+      "category": "Leadership",
+      "levelClaimed": "deep",
+      "evidenceIds": []
+    },
+    {
+      "id": "coaching",
+      "name": "Coaching & performance support",
+      "category": "Leadership",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    },
+    {
+      "id": "stakeholder",
+      "name": "Stakeholder management",
+      "category": "Leadership",
+      "levelClaimed": "proficient",
+      "evidenceIds": []
+    }
+  ]
+}
