@@ -2,16 +2,34 @@
   "meta": {
     "slug": "ariel-marin",
     "locale": "en",
-    "updatedAt": "2026-09-06T00:24:43.839Z",
+    "updatedAt": "2026-09-06T00:39:01.300Z",
     "visibility": "public",
     "templateId": "atelier"
   },
+  "metrics": [
+    {
+      "value": "~500K",
+      "label": "Annotations / week"
+    },
+    {
+      "value": "200–300",
+      "label": "Annotators"
+    },
+    {
+      "value": "10–12",
+      "label": "Languages"
+    },
+    {
+      "value": "15",
+      "label": "Years"
+    }
+  ],
   "identity": {
     "name": "Ariel Ruth Marin",
     "headline": "Multilingual AI training & quality lead · applied linguist",
     "location": "Nevada, US",
     "availability": "casually_looking",
-    "summary": "Applied linguist who builds the quality systems behind multilingual AI training data. At Innodata I stood up five multilingual annotation workflows from client documentation and extended the programme into six further languages, writing the training, certification and audit layers that hold output consistent across markets. Before that, six years of linguistic quality control in regulated medical translation and NLP/NLG annotation, and four years teaching and designing curricula across three countries."
+    "summary": "Applied linguist running quality for multilingual AI training data at scale: 200–300 annotators across 10–12 languages, producing around 500,000 annotations a week. I built the multilingual programme they work inside — the training, certification and audit layers that hold output consistent as client guidelines move — and quality scores have risen since. Before AI, six years of linguistic quality control in regulated medical translation, and four years teaching and designing curricula across three countries."
   },
   "contact": [
     {
@@ -43,16 +61,16 @@
       "employmentType": "full_time",
       "highlights": [
         {
-          "text": "Build training and certification programmes for crowd-sourced annotators directly from client project-initiation documentation."
+          "text": "Own training and certification for 200–300 crowd-sourced annotators working across 10–12 languages, built directly from client project-initiation documentation."
         },
         {
-          "text": "Maintain living documentation and training materials as client guidelines shift, holding output consistent across every target language and market."
+          "text": "Hold output consistent at around 500,000 annotations a week as client guidelines shift, through living documentation and targeted retraining."
         },
         {
-          "text": "Run initial training, shadow sessions, audits and audits-of-audits to surface quality trends and clear blockers for the whole team."
+          "text": "Run initial training, shadow sessions, audits and audits-of-audits across the programme, surfacing quality trends and clearing blockers before they reach production data."
         },
         {
-          "text": "Report quality and performance daily, weekly and monthly against the client's own taxonomy, with recommendations that close recurring issues rather than restate them."
+          "text": "Report quality and performance daily, weekly and monthly against the client's taxonomy; quality scores have improved over the period under this reporting."
         }
       ],
       "skillIds": [
@@ -74,7 +92,7 @@
           "text": "Stood up five multilingual workflows from existing English client documentation, establishing the monitoring, shadowing and audit processes that carried each from first training to production data."
         },
         {
-          "text": "Extended the programme into six additional languages, replicating the process and adapting it to each market's specific requirements."
+          "text": "Extended the programme into six additional languages — eleven in total — replicating the process and adapting it to each market's requirements."
         },
         {
           "text": "Coached underperforming annotators back to standard using applied linguistics and instructional design rather than escalation."
