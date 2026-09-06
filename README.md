@@ -1,14 +1,14 @@
-# Ariel Ruth Marin
+# Resume Wizard — test builds
 
-Interactive CV — **https://jmtibbetts.github.io/AMarin/**
+https://jmtibbetts.github.io/AMarin/
 
-| File | What it is |
+One folder per person, so builds can be compared side by side rather than
+overwriting each other.
+
+| Person | Page |
 |---|---|
-| `index.html` | The interactive page |
-| `resume.html` | The printable résumé — open it and print to PDF |
-| `resume.docx` | Word version, for job boards and ATS that parse it more reliably than PDF |
-| `profile.json` | The structured data all three are rendered from |
+| Ariel Ruth Marin | [`ariel/`](https://jmtibbetts.github.io/AMarin/ariel/) |
 
-Built with Resume Wizard. Every claim comes from Ariel's own CV and LinkedIn
-export; nothing was invented, and the analysis that produced these records what
-changed and why.
+Each folder holds `index.html` (interactive page), `resume.html` (printable —
+open and print to PDF), `resume.docx` (Word, for boards that parse it more
+reliably), and `profile.json` (the structured data all three render from).
